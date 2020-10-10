@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+    @apply text-teal-500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-nav-item {
+    @apply text-sm text-gray-600 font-semibold mr-4 pb-3 border-b-2 border-solid border-transparent
+}
+
+.top-nav-item:hover {
+    @apply text-teal-500 border-teal-500
+}
+
+.hero {
+    background: url("./assets/twitter/tailwind_bg.jpg");
+}
